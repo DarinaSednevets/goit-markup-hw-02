@@ -5,15 +5,17 @@ body {
 /*  ============ HEADER  ============ */
 .link {
   text-decoration: none;
-  color: black
 }
 .list {
   list-style: none;
   font-style: normal;
 }
 .header-link {
-  text-decoration: none;
-  color: black;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #212121;
 }
 .logo {
   font-family: Raleway;
@@ -26,17 +28,15 @@ body {
 .logo-web {
   color: #2196f3;
 }
-
 .listnav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
-
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: #2196F3;
 }
 .header-contacts {
   color: #757575;
@@ -143,14 +143,14 @@ color: #757575;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color:color: rgba(255, 255, 255, 0.6);
-}
+  color: #000000;
+} /* Применить при фоне rgba(255, 255, 255, 0.6);*/
 .street {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: black;
-  /*сделать color: #FFFFFF; когда будет фон */
+  /*сделать белый когда будет фон */
 
-  /*  ============END  FOOTER CONTACTS  ============ */
+  /*  ============ END FOOTER CONTACTS  ============ */
