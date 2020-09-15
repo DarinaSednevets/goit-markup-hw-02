@@ -46,7 +46,26 @@ body {
 .header-contacts:active {
   color: #2196f3;
 }
+/*  ============ END HEADER  ============ */
+/*  ============ HERO  ============ */
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: black;
+/* сделать color: #FFFFFF; когда будет фон*/
+}
 
+/*  ============ END HERO  ============ */
 /*  ============ FOOTER CONTACTS  ============ */
 .footer-logo {
   font-family: Raleway;
@@ -74,3 +93,5 @@ body {
   letter-spacing: 0.03em;
   color: black;
   /*сделать color: #FFFFFF; когда будет фон */
+
+  /*  ============END  FOOTER CONTACTS  ============ */
